@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-  def hoge
-    self.title
+  def foo
+    (title || "").split(',')
   end
 end
