@@ -1,0 +1,8 @@
+# Classes
+class ApplicationRecord
+end
+
+class Post < ApplicationRecord
+  def foo: -> Array[Integer]
+  def bar: -> string
+end
