@@ -1,24 +1,11 @@
 # README
+[rbs_rails](https://github.com/pocke/rbs_rails)を試すためのレポジトリです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to use
+```sh
+$ git clone git@github.com:nullnull/rails_with_rbs_rails_sample.git
+$ cd rails_with_rbs_rails_sample
+$ git submodule update --init --recursive
+$ bundle install
+$ bundle exec steep check
+```
